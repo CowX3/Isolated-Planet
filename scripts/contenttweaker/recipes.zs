@@ -23,9 +23,9 @@ mods.inworldcrafting.FireCrafting.addRecipe(<contenttweaker:block_crushed_charco
 
 // Snad
 scripts.globals.replaceShapeless(<snad:snad>,
-								[<contenttweaker:small_stardust>, <minecraft:sand>, <minecraft:sand>]);
+  [<contenttweaker:small_stardust>, <minecraft:sand>, <minecraft:sand>]);
 scripts.globals.replaceShapeless(<snad:snad:1>,
-								[<contenttweaker:small_stardust>, <minecraft:sand:1>, <minecraft:sand:1>]);
+  [<contenttweaker:small_stardust>, <minecraft:sand:1>, <minecraft:sand:1>]);
 
 
 // Soulstone
@@ -461,13 +461,13 @@ for hammer in hammers {
     mods.immersiveengineering.MetalPress.removeRecipe(sticks[i]);
     mods.immersiveengineering.MetalPress.removeRecipe(gear);
     recipes.addShaped(sticks[i]*2,
-                    [[hammer.anyDamage().transformDamage(1), ingots[i]],
-                     [ingots[i], null]]);
+      [[hammer.anyDamage().transformDamage(1), ingots[i]],
+       [ingots[i], null]]);
     mods.immersiveengineering.MetalPress.addRecipe(sticks[i]*2, ingots[i], <immersiveengineering:mold:2>, 2400);
     recipes.addShaped(gear,
-                    [[sticks[i], sticks[i], sticks[i]],
-                     [sticks[i], hammer.anyDamage().transformDamage(1), sticks[i]],
-                     [sticks[i], sticks[i], sticks[i]]]);
+      [[sticks[i], sticks[i], sticks[i]],
+       [sticks[i], hammer.anyDamage().transformDamage(1), sticks[i]],
+       [sticks[i], sticks[i], sticks[i]]]);
     mods.immersiveengineering.MetalPress.addRecipe(gear, ingots[i]*4, <immersiveengineering:mold:1>, 3000);
   }
 }

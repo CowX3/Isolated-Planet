@@ -16,7 +16,7 @@ recipes.addShapeless(<contenttweaker:research_stardust1>.withLore(["§bRight cli
 					    return null;
 					  }
 					  return out;
-					} as IRecipeFunction, 
+					} as IRecipeFunction,
 					function(out,cInfo,player){
 					  player.addGameStage(STAGE.C_stardust1);
 					} as IRecipeAction
