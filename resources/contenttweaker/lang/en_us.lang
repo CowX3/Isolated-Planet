@@ -1,0 +1,104 @@
+#contenttweaker
+
+#blocks
+tile.contenttweaker.block_crushed_charcoal.name=Crushed Charcoal Block
+
+tile.contenttweaker.soulstone_inferium.name=??eInferium Soulstone??r
+tile.contenttweaker.soulstone_prudentium.name=??aPrudentium Soulstone??r
+tile.contenttweaker.soulstone_intermedium.name=??6Intermedium Soulstone??r
+tile.contenttweaker.soulstone_superium.name=??bSuperium Soulstone??r
+tile.contenttweaker.soulstone_supremium.name=??cSupremium Soulstone??r
+tile.contenttweaker.soulstone_insanium.name=??5Insanium Soulstone??r
+
+
+#fluids
+fluid.prosperity_solvent=Prosperity Solvent
+fluid.essence_solvent_inferium=??eInferium Essence Solvent??r
+fluid.essence_solvent_prudentium=??aPrudentium Essence Solvent??r
+fluid.essence_solvent_intermedium=??6Intermedium Essence Solvent??r
+fluid.essence_solvent_superium=??bSuperium Essence Solvent??r
+fluid.essence_solvent_supremium=??cSupremium Essence Solvent??r
+fluid.essence_solvent_insanium=??5Insanium Essence Solvent??r
+
+
+#items
+item.contenttweaker.small_stardust.name=Small Pile of Stardust
+item.contenttweaker.stardust.name=Stardust
+item.contenttweaker.stardust_ingot.name=Stardust Ingot
+item.contenttweaker.star_slate.name=Star Slate
+item.contenttweaker.broken_dragon_heart.name=Broken Dragon Heart
+item.contenttweaker.red_heart_container.name=Red Heart Container
+item.contenttweaker.black_heart_container.name=Black Heart Container
+item.contenttweaker.simple_igniter.name=Simple Igniter
+item.contenttweaker.debugging_stick.name=Debugging Stick
+
+item.contenttweaker.research_stardust1.name=[Research] Basic Stardust Process
+item.contenttweaker.research_stardust2.name=[Research] Advanced Stardust Process
+item.contenttweaker.research_stardust3.name=[Research] Elite Stardust Process
+
+
+#parts
+contenttweaker.part.essencepiece=%s Essence Piece
+contenttweaker.part.dust=%s Dust
+contenttweaker.part.metalplate=%s Plate
+contenttweaker.part.gemplate=%s Plate
+
+#materials
+base.material.iron=Iron
+base.material.gold=Gold
+base.material.aluminum=Aluminum
+base.material.copper=Copper
+base.material.tin=Tin
+base.material.silver=Silver
+base.material.lead=Lead
+base.material.nickel=Nickel
+base.material.uranium=Uranium
+base.material.platinum=Platinum
+base.material.iridium=Iridium
+base.material.bronze=Bronze
+base.material.steel=Steel
+base.material.constantan=Constantan
+base.material.electrum=Electrum
+base.material.invar=Invar
+base.material.mithril=Mithril
+base.material.signalum=Signalum
+base.material.lumium=Lumium
+base.material.enderium=Enderium
+base.material.draconium=Draconium
+base.material.awakeneddraconium=Awakened Draconium
+base.material.electricalsteel=Electrical Steel
+base.material.energeticalloy=Energetic Alloy
+base.material.vibrantalloy=Vibrant Alloy
+base.material.redstonealloy=Redstone Alloy
+base.material.conductiveiron=Conductive Iron
+base.material.pulsatingiron=Pulsating Iron
+base.material.darksteel=Dark Steel
+base.material.soularium=Soularium
+base.material.endsteel=End Steel
+base.material.crudesteel=Crude Steel
+base.material.crystallinealloy=Crystalline Alloy
+base.material.melodicalloy=Melodic Alloy
+base.material.stellaralloy=Stellar Alloy
+base.material.crystallinepinkslime=Crystalline Pink Slime
+base.material.energeticsilver=Energetic Silver
+base.material.vividalloy=Vivid Alloy
+base.material.litherite=Litherite
+base.material.erodium=Erodium
+base.material.kyronite=Kyronite
+base.material.pladium=Pladium
+base.material.ionite=Ionite
+base.material.aethium=Aethium
+base.material.lonsdaleite=Lonsdaleite
+
+
+#machines
+machine.crafttweaker:stardust_converter=Stardust Converter
+machine.crafttweaker:essence_seed_fusion=Essence Seed Fusion
+
+#jei
+key.debugging_stick.jei=??8??oIt can do everything for you.
+key.questbook.jei=Use holographic projection technology to provide you with tips and solutions for survival and development in extreme environments!
+
+
+#better questing
+key.checking_resourcepack.text=??2??lThe proprietary resourcepack of "Isolated Planet" has been successfully loaded!

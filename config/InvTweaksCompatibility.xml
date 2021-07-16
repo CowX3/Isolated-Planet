@@ -1,0 +1,9 @@
+<root>
+  <inventory class="com.blakebr0.extendedcrafting.client.container.ContainerBasicTable" disable_buttons="false"/>
+  <inventory class="com.blakebr0.extendedcrafting.client.container.ContainerAdvancedTable" disable_buttons="false"/>
+  <inventory class="com.blakebr0.extendedcrafting.client.container.ContainerEliteTable" disable_buttons="false"/>
+  <inventory class="com.blakebr0.extendedcrafting.client.container.ContainerUltimateTable" disable_buttons="false"/>
+  <inventory class="com.blakebr0.extendedcrafting.client.container.ContainerEnderCrafter" disable_buttons="false"/>
+  <inventory class="com.blakebr0.extendedcrafting.client.container.ContainerCompressor" disable_buttons="false"/>
+  <inventory class="com.blakebr0.extendedcrafting.client.container.ContainerHandheldTable" disable_buttons="false"/>
+</root>

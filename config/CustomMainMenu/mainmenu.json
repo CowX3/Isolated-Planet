@@ -1,0 +1,221 @@
+{
+  "buttons": {
+    "singleplayer": {
+      "text" : "menu.singleplayer",
+	    "hoverText": "点我开始",
+      "posX" : -50,
+      "posY" : -40,
+      "width" : 100,
+      "height" : 20,
+	    "texture": "custommainmenu:button.png",
+	    "alignment": "center",
+      "action" : {
+        "type" : "openGui",
+        "gui" : "singleplayer"
+      }
+    }, 
+    "multiplayer": {
+      "text" : "menu.multiplayer",
+	    "hoverText": "基友联机",
+      "posX" : -50,
+      "posY" : -20,
+      "width" : 100,
+      "height" : 20,
+	    "texture": "custommainmenu:button.png",
+	    "alignment": "center",
+      "action" : {
+        "type" : "openGui",
+        "gui" : "multiplayer"
+      }
+    },
+    "mods": {
+      "text" : "fml.menu.mods",
+	    "hoverText": "这都是真正的力量",
+      "posX" : -50,
+      "posY" : 0,
+      "width" : 100,
+      "height" : 20,
+	    "texture": "custommainmenu:button.png",
+	    "alignment": "center",
+      "action" : {
+        "type" : "openGui",
+        "gui" : "mods"
+      }
+    },
+    "options": {
+      "text" : "menu.options",
+	    "hoverText": "整一些骚操作",
+      "posX" : -50,
+      "posY" : 20,
+      "width" : 100,
+      "height" : 20,
+	    "texture": "custommainmenu:button.png",
+	    "alignment": "center",
+      "action" : {
+        "type" : "openGui",
+        "gui" : "options"
+      }
+    },
+	"mcbbs": {
+      "text" : "MCBBS整合包帖",
+	    "hoverText": "求人气求金粒 QAQ",
+      "posX" : -50,
+      "posY" : 40,
+      "width" : 100,
+      "height" : 20,
+	    "texture": "custommainmenu:button.png",
+	    "alignment": "center",
+      "action" : {
+        "type" : "openLink",
+        "link" : "about:blank"
+      }
+    },
+    "quit": {
+      "text" : "menu.quit",
+	    "hoverText": "肝不动了",
+      "posX" : -50,
+      "posY" : 60,
+      "width" : 100,
+      "height" : 20,
+	    "texture": "custommainmenu:button.png",
+	    "alignment": "center",
+      "action" : {
+        "type" : "quit"
+      }
+    },
+    "refresh": {
+      "text" : "",
+      "posX" : -154,
+      "posY" : 132,
+      "width" : 20,
+      "height" : 20,
+      "texture" : "custommainmenu:textures/gui/buttons.png",
+      "action" :
+      {
+        "type" : "refresh"
+      }
+    }
+  },
+
+  "labels": {
+    "minecraft": {
+      "text": "Minecraft 1.12.2",
+      "posX": -63,
+      "posY": -40,
+      "alignment": "bottom_right"
+    },
+	  "forge": {
+      "text": "Forge #forgeversion#",
+      "posX": -70,
+      "posY": -30,
+      "alignment": "bottom_right"
+    },
+    "modsloaded": {
+      "text": "#modsloaded# Mod§mel§rs 已加载",
+      "posX": -74,
+      "posY": -20,
+      "alignment": "bottom_right"
+    },
+    "mojang": {
+      "text" : "Copyright Mojang AB",
+      "posX" : -80,
+      "posY" : -10,
+      "color" : -1,
+      "alignment" : "bottom_right",
+      "action" : {
+        "type" : "openGui",
+        "gui" : "credits"
+      }
+    },
+
+	  "changelog": {
+	    "text":"§c§l更新公告",
+      "posX" : -36,
+      "posY" : 5,
+	    "fontSize" : 2,
+      "alignment" : "top_center"
+	  },
+	  "changetip": {
+	    "text":"§c[需要联网查看]",
+      "posX" : -28,
+      "posY" : 25,
+      "alignment" : "top_center"
+	  },
+	  "changeweb": {
+	    "text":"web:https://pastebin.com/raw/5J4x3mKc",
+      "posX" : -59,
+      "posY" : 35,
+      "alignment" : "top_center",
+	    "action" : {
+        "type" : "openLink",
+        "link" : "about:blank"
+      }
+	  },
+
+	  "title": {
+	    "text": "§3Isolated Planet  孤星",
+	    "posX" : -88,
+      "posY" : 5,
+      "alignment" : "top_right"
+	  },
+	  "version": {
+	    "text": "§3Version-1.0.0",
+	    "posX" : -54,
+      "posY" : 15,
+      "alignment" : "top_right"
+	  },
+	  "author": {
+	    "text": "§9CowX3整合包第三弹",
+	    "posX" : -80,
+      "posY" : 25,
+      "alignment" : "top_right"
+	  },
+	  "bilibili": {
+	    "text": "§bBilibili  @CowX3",
+	    "hoverText": "§b§nBilibili  @CowX3",
+	    "posX" : -68,
+      "posY" : 35,
+      "alignment" : "top_right",
+	    "action" : {
+        "type" : "openLink",
+        "link" : "https://space.bilibili.com/10406554"
+      }
+	  },
+
+	  "otherpack": {
+	    "text": "§3§o2016 EFTE PROJECT",
+	    "posX" : 5,
+      "posY" : -30,
+      "alignment" : "bottom_left"
+	  },
+	  "efte": {
+	    "text": "§1[第一弹] 逃离地球计划",
+	    "hoverText": "§1§n[第一弹] 逃离地球计划",
+	    "posX" : 5,
+      "posY" : -20,
+      "alignment" : "bottom_left",
+	    "action" : {
+        "type" : "openLink",
+        "link" : "http://www.mcbbs.net/thread-646723-1-1.html"
+      }
+	  },
+	  "atww3": {
+	    "text": "§4[第二弹] 三战后的世界",
+	    "hoverText": "§4§n[第二弹] 三战后的世界",
+	    "posX" : 5,
+      "posY" : -10,
+      "alignment" : "bottom_left",
+	    "action" : {
+        "type" : "openLink",
+        "link" : "http://www.mcbbs.net/thread-771285-1-1.html"
+      }
+	  }
+  },
+
+  "other": {
+    "background": {
+      "image": "custommainmenu:menu_bg.png",
+      "mode": "fill"
+    }
+  }
+}

@@ -1,0 +1,462 @@
+#contenttweaker
+itemGroup.isolatedplanet=Isolated Planet
+
+#blocks
+tile.contenttweaker.block_crushed_charcoal.name=碎木炭块
+
+tile.contenttweaker.soulstone_inferium.name=§e下级离魂石§r
+tile.contenttweaker.soulstone_prudentium.name=§a初级离魂石§r
+tile.contenttweaker.soulstone_intermedium.name=§6中级离魂石§r
+tile.contenttweaker.soulstone_superium.name=§b高级离魂石§r
+tile.contenttweaker.soulstone_supremium.name=§c终极离魂石§r
+tile.contenttweaker.soulstone_insanium.name=§5究极离魂石§r
+
+
+#fluids
+fluid.prosperity_solvent=活化水晶溶剂
+fluid.essence_solvent_inferium=§e下级精华溶剂§r
+fluid.essence_solvent_prudentium=§a初级精华溶剂§r
+fluid.essence_solvent_intermedium=§6中级精华溶剂§r
+fluid.essence_solvent_superium=§b高级精华溶剂§r
+fluid.essence_solvent_supremium=§c终极精华溶剂§r
+fluid.essence_solvent_insanium=§5究极精华溶剂§r
+fluid.bluestar_solution=蓝星溶液
+
+#items
+item.contenttweaker.small_stardust.name=小堆星尘
+item.contenttweaker.stardust.name=星尘
+item.contenttweaker.stardust_ingot.name=星尘锭
+item.contenttweaker.star_slate.name=星辰石板
+item.contenttweaker.broken_dragon_heart.name=破碎龙心
+item.contenttweaker.red_heart_container.name=红心容器
+item.contenttweaker.black_heart_container.name=黑心容器
+item.contenttweaker.simple_igniter.name=简易点火器
+item.contenttweaker.debugging_stick.name=调试棒
+
+item.contenttweaker.research_stardust1.name=[研究] 基础星尘工艺
+item.contenttweaker.research_stardust2.name=[研究] 进阶星尘工艺
+item.contenttweaker.research_stardust3.name=[研究] 精英星尘工艺
+item.contenttweaker.research_light_industry.name=[研究] 轻型工业
+item.contenttweaker.research_heavy_industry.name=[研究] 重型工业
+item.contenttweaker.research_automation.name=[研究] 工厂自动化
+item.contenttweaker.research_draconic.name=[研究] 龙之进化
+item.contenttweaker.research_crafting5.name=[研究] 进阶合成工艺
+item.contenttweaker.research_crafting7.name=[研究] 精英合成工艺
+item.contenttweaker.research_crafting9.name=[研究] 终极合成工艺
+item.contenttweaker.research_creative.name=[研究] 宇宙终极答案
+
+
+#materials
+base.material.iron=铁
+base.material.gold=金
+base.material.aluminum=铝
+base.material.copper=铜
+base.material.tin=锡
+base.material.silver=银
+base.material.lead=铅
+base.material.nickel=镍
+base.material.uranium=铀
+base.material.platinum=铂
+base.material.iridium=铱
+base.material.bronze=青铜
+base.material.steel=钢
+base.material.constantan=康铜
+base.material.electrum=琥珀金
+base.material.invar=殷钢
+base.material.mithril=秘银
+base.material.signalum=信素
+base.material.lumium=流明
+base.material.enderium=末影
+base.material.draconium=龙
+base.material.draconiumawakened=觉醒龙
+base.material.electricalsteel=磁钢
+base.material.energeticalloy=充能合金
+base.material.vibrantalloy=脉冲合金
+base.material.redstonealloy=红石合金
+base.material.conductiveiron=导电铁
+base.material.pulsatingiron=脉冲铁
+base.material.darksteel=玄钢
+base.material.soularium=魂金
+base.material.endsteel=末影钢
+base.material.crudesteel=粗钢
+base.material.crystallinealloy=晶化合金
+base.material.melodicalloy=旋律合金
+base.material.stellaralloy=恒星合金
+base.material.crystallinepinkslime=晶化粉红史莱姆
+base.material.energeticsilver=充能银
+base.material.vividalloy=生动合金
+base.material.litherite=莱泽尔水晶
+base.material.erodium=艾洛蒂水晶
+base.material.kyronite=凯罗尼水晶
+base.material.pladium=普雷蒂水晶
+base.material.ionite=艾恩尼水晶
+base.material.aethium=以太水晶
+base.material.lonsdaleite=蓝丝黛尔水晶
+
+
+#machines
+machine.crafttweaker:stardust_converter=星尘转化器
+machine.crafttweaker:starlight_condenser=星光凝聚器
+machine.crafttweaker:star_fusion=繁星融合器
+machine.crafttweaker:essence_seed_fusion=精华种子融合器
+
+#jei
+key.debugging_stick.jei=§8§o它可以帮你做任何事情（意味深）
+key.questbook.jei=利用全息投影技术为你提供在极端环境下生存发展的各种提示与方案！
+
+
+#Research
+key.research.stardust2.title=进阶星尘工艺
+
+
+#better questing
+key.bq.part00.main.title=Part.00 -- 游戏提示
+key.checking_resourcepack.text=§2§lIsolated Planet 专属资源包已成功加载！
+
+#bqResearch
+key.bq.part00.research01.title=§2§l[P00-R01]§r 基础星尘工艺
+key.bq.part00.research02.title=§2§l[P00-R02]§r 进阶星尘工艺
+key.bq.part00.research03.title=§2§l[P00-R03]§r 精英星尘工艺
+
+#part01
+key.bq.part01.main.title=Part.01 -- 星辰万物
+
+key.bq.part01.task01.branch00.title=§2§l[P01-T01-B00]§r 来自上天的馈赠
+key.bq.part01.task01.branch00.desc=醒来之后，你发现你的脚下只有浮空岛屿，除了身上的终端，和一个上面放有一些物品的储物抽屉，只有无尽的虚空围绕着这块浮空岛屿。但是，天无绝人之路，你在抽屉上找到了一本手册，和一个对你来说陌生而又熟悉的手持工作台，抽屉里装满了一种蓝色的会发光的粉末。然而通过终端，你始终无法分析这种粉末的分子结构，只希望在这本手册中会有关于这种粉末简单的描述。
+
+key.bq.part01.task02.branch00.title=§2§l[P01-T02-B00]§r 孤星之星尘
+key.bq.part01.task02.branch00.desc=通过这本手册里讲述的内容，你得知这种蓝色粉末名为"星尘"，它可以将一些物品转化为你所熟悉的材料。然而，它所具备的无限增殖能力实在令人恐惧，这使你不得不思考它对自己是有益还是有害。当然这一切都需要时间来得到最终的答案。
+
+key.bq.part01.task03.branch00.title=§2§l[P01-T03-B00]§r 一生万物
+key.bq.part01.task03.branch00.desc=既然你已经知道了星尘的可塑性，那么为什么不尝试一下用它来制作你所熟悉的材料呢？制作一些石头和原木，这是你一切发展的开始。
+
+key.bq.part01.task04.branch00.title=§2§l[P01-T04-B00]§r 并非毫无意义的节约
+key.bq.part01.task04.branch00.desc=虽然星尘可以无限增殖，但是你认为星尘使用量的不同会造成产出的物品也不同。你尝试将星尘均分成小堆，找出其蕴含的秘密。
+
+key.bq.part01.task05.branch00.title=§2§l[P01-T05-B00]§r 某"魔法"的小堆星尘
+key.bq.part01.task05.branch00.desc=当你将小堆星尘撒在石头上时，石头立刻转换成了各种各样的变质岩，同样地，橡木原木也因此转换成了不同材质的原木。对于长期学习各种科学知识的你来说，你意识到这种现象绝对不是以你所了解的知识能够解释的，难道这个世界上还有你所不知道的力量存在？
+
+key.bq.part01.task05.branch01.title=§2§l[P01-T05-B01]§r 原木转化
+key.bq.part01.task05.branch01.desc=小堆星尘可直接用于在所有种类的原木之间互相转化。  §4注意：每次操作都会消耗1个小堆星尘。§r
+
+key.bq.part01.task05.branch02.title=§2§l[P01-T05-B02]§r 变质岩转化
+key.bq.part01.task05.branch02.desc=小堆星尘可以直接将石头转化为各种变质岩。  §4注意：每次操作都会消耗1个小堆星尘。§r
+
+key.bq.part01.task06.branch00.title=§2§l[P01-T06-B00]§r 文明火种
+key.bq.part01.task06.branch00.desc=火的发现和利用，标志着人类的进步，对于人类和社会的发展具有重大的意义。你需要找回原始人生火的方式——钻木取火，来获得你在这个星球上的第一个希望之光。  §4注意：简易点火器点火成功的概率为0.2。§r
+
+key.bq.part01.task07.branch00.title=§2§l[P01-T07-B00]§r 浴火重生
+key.bq.part01.task07.branch00.desc=原木的热值对你来说实在是太低了，你尝试将一些原木扔入火中，却发现它并没有像其他的物品一样会被火烧毁...
+
+key.bq.part01.task08.branch00.title=§2§l[P01-T08-B00]§r 生存用电
+key.bq.part01.task08.branch00.desc=了解了木炭的制作流程，你的燃料来源就十分充足了，但木炭不仅仅是用作熔炉的燃料，它还有更多的用途。于是你把熔炉改装成了一个简易的发电机，虽然它的产能速度及能量输出速度都限制在了非常低的水平，但是相对于其他发电机来说，它的总产能量却是非常高的，对于处在发展前期的你来说，已经十分足够了。
+
+key.bq.part01.task09.branch00.title=§2§l[P01-T09-B00]§r 无限潜能
+key.bq.part01.task09.branch00.desc=细读了一遍《万物起源——星尘》，你敢肯定星尘的用途绝不仅仅是制作原木和石材这些简单的材料，这意味着你需要更深入地去研究星尘这个神秘的物质了。不过在这之前，你首先需要制作一个研究台，将来几乎所有的科技研究也都会在这个小台子上进行。  §1提示：完成某些重要任务后，可以查看研究台上是否出现了可供完成的新研究。§r
+
+key.bq.part01.task10.branch00.title=§2§l[P01-T10-B00]§r 星尘之中阶转化
+key.bq.part01.task10.branch00.desc=你研究出了一台可以让星尘稍微提高转化率的机器，它甚至可以将已经使用小堆星尘转化过的物质，进行更深入地转化，使其成为另外一种物质。当然，这台机器需要外部能量的驱动，才能激发星尘自身的一部分潜能，仅仅是一部分。
+
+key.bq.part01.task10.branch01.title=§2§l[P01-T10-B01]§r 树苗转化
+key.bq.part01.task10.branch01.desc=利用星尘转化器，你可以将原木转换成其对应的树苗。
+
+key.bq.part01.task10.branch02.title=§2§l[P01-T10-B02]§r 特殊岩石转化
+key.bq.part01.task10.branch02.desc=利用星尘转化器，你可以将一些变质岩转化成另一些特殊的岩石。
+
+key.bq.part01.task10.branch03.title=§2§l[P01-T10-B03]§r 生命之源
+key.bq.part01.task10.branch03.desc=利用星尘转化器，你可以将树苗或树叶转化成装满水的流体球。将流体球扔出，其最终落地后的位置就会生成对应的流体，同时会消耗流体球。  §4注意：你现在已经无法在世界中制作无限水源了。§r
+
+key.bq.part01.task10.branch04.title=§2§l[P01-T10-B04]§r "无限"的熔岩？
+key.bq.part01.task10.branch04.desc=利用星尘转化器，你可以将地狱岩转化成装满熔岩的流体球。将流体球扔出，其最终落地后的位置就会生成对应的流体，同时会消耗流体球。
+
+key.bq.part01.task11.branch01.title=§2§l[P01-T11-B01]§r 激发态
+key.bq.part01.task11.branch01.desc=你尝试将小堆星尘撒在玻璃上，发现玻璃变成了一些残破的水晶碎片，也许这些水晶碎片对你来说具有更大的发挥空间。
+
+key.bq.part01.task11.branch02.title=§2§l[P01-T11-B02]§r 农业始源
+key.bq.part01.task11.branch02.desc=你尝试将小堆星尘撒在泥土上，发现泥土变成了一些种子。看到这些种子，你似乎回想起了历史教材和生物教材上的一些知识，经过处理后它们的用处可能会很大，最后你把这些种子放进了箱子里。
+
+key.bq.part01.task11.branch03.title=§2§l[P01-T11-B03]§r 星之鼓动
+key.bq.part01.task11.branch03.desc=使用不同的石材，吸收月光与繁星的能量，同时配合星尘自身的特性，你成功制作出了一块石板，相信这块石板在未来的发展中对你的影响会十分可观。  §4注意：该配方需要在夜晚进行制作。§r
+
+key.bq.part01.task12.branch00.title=§2§l[P01-T12-B00]§r "水晶之种"
+key.bq.part01.task12.branch00.desc=通过种子与活化水晶的互相结合，你制作出了一种特殊的种子，它不能直接种植在耕地上，需要经过特殊的处理方式才能够正常种植。
+
+key.bq.part01.task13.branch00.title=§2§l[P01-T13-B00]§r 古老的矿物种植技术
+key.bq.part01.task13.branch00.desc=在2516年的第三次世界大战结束后，曾有人在地球上通过杂交的方式种植出了第一株矿石作物，之后他在无数次枯燥的杂交过程中也发现了十几种常见金属和非金属的矿石作物，最后他在离开地球前把这些矿石作物带上了火星。经过了700多年的改良和大范围推广，矿石作物的制作配方也是人尽皆知。  你为了获取最基础的矿石作物而制作出了一台机器，相信在这台机器和星辰石板的作用下，这些矿石种子能够重新焕发生机。  §4注意：在使用精华种子融合器制作矿石种子时，对于需要使用星辰石板的配方，请一定要注意星辰石板是否已调整为所需要的模式。§r
+
+key.bq.part01.task14.branch00.title=§2§l[P01-T14-B00]§r 魂石
+key.bq.part01.task14.branch00.desc=将沙子与灵魂沙扔进水中，你得到了一些碎离魂石，当然，碎离魂石需要经过熔炼才能让它具备吸收各种精华的能力。
+
+key.bq.part01.task15.branch00.title=§2§l[P01-T15-B00]§r 水火交融
+key.bq.part01.task15.branch00.desc=你发现了精华溶剂在常温下的制作方法，只需要在水里扔进精华和一些活化水晶碎片就能治做出对应的精华溶剂。但是反复地往坑里倒水再扔材料，效率实在是太低了。  这时你脑海中灵光一现：这只是使用了常温水来制作精华溶剂，如果水在加热状态下制作这个配方会发生什么呢？
+
+key.bq.part01.task16.branch00.title=
+key.bq.part01.task16.branch00.desc=
+
+key.bq.part01.task17.branch00.title=
+key.bq.part01.task17.branch00.desc=
+
+key.bq.part01.task18.branch00.title=
+key.bq.part01.task18.branch00.desc=
+
+key.bq.part01.task19.branch00.title=
+key.bq.part01.task19.branch00.desc=
+
+key.bq.part01.task20.branch00.title=
+key.bq.part01.task20.branch00.desc=
+
+
+#part02
+key.bq.part02.main.title=Part.02 -- 矿物种植
+
+key.bq.part02.task01a.branch00.title=§2§l[P02-T01A-B00]§r 下级精华
+key.bq.part02.task01a.branch00.desc=将活化水晶碎片和星尘放进星尘转化器，你获得了制作一切矿石种子的基本材料——下级精华。虽然下级精华只能用于制作1阶种子，但下级精华以及每个等级的精华可以通过自身催化来让精华的等级得到进一步提升(最高等级为究级)。  §1提示：1阶种子——僵尸|骷髅|苦力怕|蜘蛛§r
+
+key.bq.part02.task01b.branch00.title=§2§l[P02-T01B-B00]§r 1级合成种子
+key.bq.part02.task01b.branch00.desc=将基础合成种子扔进下级精华溶剂中，可制作出1级合成种子。
+
+key.bq.part02.task01.branch01.title=§2§l[P02-T01-B01]§r 下级精华种子
+key.bq.part02.task01.branch01.desc=使用精华种子融合器可制作下级精华种子，成熟后可收获1个下级精华。
+
+key.bq.part02.task01.branch02.title=§2§l[P02-T01-B02]§r 下级离魂石
+key.bq.part02.task01.branch02.desc=将离魂石扔进下级精华溶剂中，可制作出下级离魂石。
+
+key.bq.part02.task01.branch02m.title=§2§l[P02-T01-B02-M]§r 1级怪物碎片
+key.bq.part02.task01.branch02m.desc=将小堆星尘撒在下级离魂石上可随机获取对应等级的灵魂碎片，这些灵魂碎片可用于在精华种子融合器中制作怪物种子。
+
+key.bq.part02.task01.branch02m1.title=§2§l[P02-T01-B02-M-1]§r 僵尸种子
+key.bq.part02.task01.branch02m1.desc=使用精华种子融合器可制作僵尸种子，成熟后可收获僵尸精华。
+
+key.bq.part02.task01.branch02m2.title=§2§l[P02-T01-B02-M-2]§r 骷髅种子
+key.bq.part02.task01.branch02m2.desc=使用精华种子融合器可制作骷髅种子，成熟后可收获骷髅精华。
+
+key.bq.part02.task01.branch02m3.title=§2§l[P02-T01-B02-M-3]§r 苦力怕种子
+key.bq.part02.task01.branch02m3.desc=使用精华种子融合器可制作苦力怕种子，成熟后可收获苦力怕精华。
+
+key.bq.part02.task01.branch02m4.title=§2§l[P02-T01-B02-M-4]§r 蜘蛛种子
+key.bq.part02.task01.branch02m4.desc=使用精华种子融合器可制作蜘蛛种子，成熟后可收获蜘蛛精华。
+
+key.bq.part02.task01.branch03.title=§2§l[P02-T01-B03]§r 下级精华溶剂
+key.bq.part02.task01.branch03.desc=将活化水晶碎片和下级精华扔进水中，可制作出下级精华溶剂，精华溶剂是制作合成种子等其它材料的重要媒介。  §4注意：需要手持装有下级精华溶剂的容器以提交任务。§r  §1提示：在将来的发展中你可以使用炼药锅制作精华溶剂。§r
+
+
+key.bq.part02.task02a.branch00.title=§2§l[P02-T02A-B00]§r 初级精华
+key.bq.part02.task02a.branch00.desc=初级精华可用于制作2阶种子。  §1提示：2阶种子——染料|煤|硅|硫磺|铝|铜|赛特斯石英|史莱姆|守护者§r
+
+key.bq.part02.task02b.branch00.title=§2§l[P02-T02B-B00]§r 2级合成种子
+key.bq.part02.task02b.branch00.desc=将基础合成种子扔进初级精华溶剂中，可制作出2级合成种子。
+
+key.bq.part02.task02b.branch00s01.title=§2§l[P02-T02B-B00-S-01]§r 煤种子
+key.bq.part02.task02b.branch00s01.desc=使用2级合成种子可随机制作出煤种子，成熟后可收获煤精华。
+
+key.bq.part02.task02b.branch00s02.title=§2§l[P02-T02B-B00-S-02]§r 染料种子
+key.bq.part02.task02b.branch00s02.desc=使用2级合成种子可随机制作出染料种子，成熟后可收获染料精华。
+
+key.bq.part02.task02b.branch00s03.title=§2§l[P02-T02B-B00-S-03]§r 硅种子
+key.bq.part02.task02b.branch00s03.desc=使用2级合成种子可随机制作出硅种子，成熟后可收获硅精华。
+
+key.bq.part02.task02b.branch00s04.title=§2§l[P02-T02B-B00-S-04]§r 硫磺种子
+key.bq.part02.task02b.branch00s04.desc=使用2级合成种子可随机制作出硫磺种子，成熟后可收获硫磺精华。
+
+key.bq.part02.task02b.branch00s05.title=§2§l[P02-T02B-B00-S-05]§r 铝种子
+key.bq.part02.task02b.branch00s05.desc=使用2级合成种子可随机制作出铝种子，成熟后可收获铝精华。
+
+key.bq.part02.task02b.branch00s06.title=§2§l[P02-T02B-B00-S-06]§r 铜种子
+key.bq.part02.task02b.branch00s06.desc=使用2级合成种子可随机制作出铜种子，成熟后可收获铜精华。
+
+key.bq.part02.task02b.branch00s07.title=§2§l[P02-T02B-B00-S-07]§r 赛特斯石英种子
+key.bq.part02.task02b.branch00s07.desc=使用2级合成种子可随机制作出赛特斯石英种子，成熟后可收获赛特斯石英精华。
+
+key.bq.part02.task02.branch01.title=§2§l[P02-T02-B01]§r 初级精华种子
+key.bq.part02.task02.branch01.desc=使用精华种子融合器可制作初级精华种子，成熟后可收获2个下级精华。
+
+key.bq.part02.task02.branch02.title=§2§l[P02-T02-B02]§r 初级离魂石
+key.bq.part02.task02.branch02.desc=将离魂石扔进初级精华溶剂中，可制作出初级离魂石。
+
+key.bq.part02.task02.branch02m.title=§2§l[P02-T02-B02-M]§r 2级怪物碎片
+key.bq.part02.task02.branch02m.desc=将小堆星尘撒在初级离魂石上可随机获取对应等级的灵魂碎片，这些灵魂碎片可用于在精华种子融合器中制作怪物种子。
+
+key.bq.part02.task02.branch02m1.title=§2§l[P02-T02-B02-M-1]§r 史莱姆种子
+key.bq.part02.task02.branch02m1.desc=使用精华种子融合器可制作史莱姆种子，成熟后可收获史莱姆精华。
+
+key.bq.part02.task02.branch02m2.title=§2§l[P02-T02-B02-M-2]§r 守护者种子
+key.bq.part02.task02.branch02m2.desc=使用精华种子融合器可制作守护者种子，成熟后可收获守护者精华。
+
+key.bq.part02.task02.branch03.title=§2§l[P02-T02-B03]§r 初级精华溶剂
+key.bq.part02.task02.branch03.desc=将活化水晶碎片和初级精华扔进水中，可制作出初级精华溶剂，精华溶剂是制作合成种子等其它材料的重要媒介。  §4注意：需要手持装有初级精华溶剂的容器以提交任务。§r  §1提示：在将来的发展阶段中你可以使用炼药锅制作精华溶剂。§r
+
+
+key.bq.part02.task03a.branch00.title=§2§l[P02-T03A-B00]§r 中级精华
+key.bq.part02.task03a.branch00.desc=中级精华可用于制作3阶种子。  §1提示：3阶种子——铁|下界石英|荧石|红石|硝石|锡|银|铅|青铜|钢|红石合金|导电铁|福鲁伊克斯水晶|烈焰人|狂风|暴雪|地岩§r
+
+key.bq.part02.task03b.branch00.title=§2§l[P02-T03B-B00]§r 3级合成种子
+key.bq.part02.task03b.branch00.desc=将基础合成种子扔进中级精华溶剂中，可制作出3级合成种子。
+
+
+key.bq.part02.task03b.branch00s01.title=§2§l[P02-T03B-B00-S-01]§r 铁种子
+key.bq.part02.task03b.branch00s01.desc=使用3级合成种子可随机制作出铁种子，成熟后可收获铁精华。
+
+key.bq.part02.task03b.branch00s02.title=§2§l[P02-T03B-B00-S-02]§r 下界石英种子
+key.bq.part02.task03b.branch00s02.desc=使用3级合成种子可随机制作出下界石英种子，成熟后可收获下界石英精华。
+
+key.bq.part02.task03b.branch00s03.title=§2§l[P02-T03B-B00-S-03]§r 荧石种子
+key.bq.part02.task03b.branch00s03.desc=使用3级合成种子可随机制作出荧石种子，成熟后可收获荧石精华。
+
+key.bq.part02.task03b.branch00s04.title=§2§l[P02-T03B-B00-S-04]§r 红石种子
+key.bq.part02.task03b.branch00s04.desc=使用3级合成种子可随机制作出红石种子，成熟后可收获红石精华。
+
+key.bq.part02.task03b.branch00s05.title=§2§l[P02-T03B-B00-S-05]§r 硝石种子
+key.bq.part02.task03b.branch00s05.desc=使用3级合成种子可随机制作出硝石种子，成熟后可收获硝石精华。
+
+key.bq.part02.task03b.branch00s06.title=§2§l[P02-T03B-B00-S-06]§r 锡种子
+key.bq.part02.task03b.branch00s06.desc=使用3级合成种子可随机制作出锡种子，成熟后可收获锡精华。
+
+key.bq.part02.task03b.branch00s07.title=§2§l[P02-T03B-B00-S-07]§r 银种子
+key.bq.part02.task03b.branch00s07.desc=使用3级合成种子可随机制作出银种子，成熟后可收获银精华。
+
+key.bq.part02.task03b.branch00s08.title=§2§l[P02-T03B-B00-S-08]§r 铅种子
+key.bq.part02.task03b.branch00s08.desc=使用3级合成种子可随机制作出铅种子，成熟后可收获铅精华。
+
+
+key.bq.part02.task03.branch01.title=§2§l[P02-T03-B01]§r 中级精华种子
+key.bq.part02.task03.branch01.desc=使用精华种子融合器可制作中级精华种子，成熟后可收获3个下级精华。
+
+key.bq.part02.task03.branch02.title=§2§l[P02-T03-B02]§r 中级离魂石
+key.bq.part02.task03.branch02.desc=将离魂石扔进中级精华溶剂中，可制作出中级离魂石。
+
+key.bq.part02.task03.branch02m.title=§2§l[P02-T03-B02-M]§r 3级怪物碎片
+key.bq.part02.task03.branch02m.desc=将小堆星尘撒在中级离魂石上可随机获取对应等级的灵魂碎片，这些灵魂碎片可用于在精华种子融合器中制作怪物种子。
+
+key.bq.part02.task03.branch02m1.title=§2§l[P02-T03-B02-M-1]§r 烈焰人种子
+key.bq.part02.task03.branch02m1.desc=使用精华种子融合器可制作烈焰人种子，成熟后可收获烈焰人精华。
+
+key.bq.part02.task03.branch02m2.title=§2§l[P02-T03-B02-M-2]§r 暴雪人种子
+key.bq.part02.task03.branch02m2.desc=使用精华种子融合器可制作暴雪人种子，成熟后可收获暴雪人精华。
+
+key.bq.part02.task03.branch02m3.title=§2§l[P02-T03-B02-M-3]§r 狂风人种子
+key.bq.part02.task03.branch02m3.desc=使用精华种子融合器可制作狂风人种子，成熟后可收获狂风人精华。
+
+key.bq.part02.task03.branch02m4.title=§2§l[P02-T03-B02-M-4]§r 地岩人种子
+key.bq.part02.task03.branch02m4.desc=使用精华种子融合器可制作地岩人种子，成熟后可收获地岩人精华。
+
+key.bq.part02.task03.branch03.title=§2§l[P02-T03-B03]§r 中级精华溶剂
+key.bq.part02.task03.branch03.desc=将活化水晶碎片和中级精华扔进水中，可制作出中级精华溶剂，精华溶剂是制作合成种子等其它材料的重要媒介。  §4注意：需要手持装有中级精华溶剂的容器以提交任务。§r  §1提示：在将来的发展阶段中你可以使用炼药锅制作精华溶剂。§r
+
+
+key.bq.part02.task04a.branch00.title=§2§l[P02-T04A-B00]§r 高级精华
+key.bq.part02.task04a.branch00.desc=高级精华可用于制作4阶种子。  §1提示：4阶种子——金|青金石|镍|康铜|琥珀金|殷钢|秘银|信素|流明|魂金|玄钢|脉冲铁|充能合金§r
+
+key.bq.part02.task04b.branch00.title=§2§l[P02-T04B-B00]§r 4级合成种子
+key.bq.part02.task04b.branch00.desc=将基础合成种子扔进高级精华溶剂中，可制作出4级合成种子。
+
+
+key.bq.part02.task04b.branch00s01.title=§2§l[P02-T04B-B00-S-01]§r 金种子
+key.bq.part02.task04b.branch00s01.desc=使用4级合成种子可随机制作出金种子，成熟后可收获金精华。
+
+key.bq.part02.task04b.branch00s02.title=§2§l[P02-T04B-B00-S-02]§r 青金石种子
+key.bq.part02.task04b.branch00s02.desc=使用4级合成种子可随机制作出青金石种子，成熟后可收获青金石精华。
+
+key.bq.part02.task04b.branch00s03.title=§2§l[P02-T04B-B00-S-03]§r 镍种子
+key.bq.part02.task04b.branch00s03.desc=使用4级合成种子可随机制作出镍种子，成熟后可收获镍精华。
+
+
+key.bq.part02.task04.branch01.title=§2§l[P02-T04-B01]§r 高级精华种子
+key.bq.part02.task04.branch01.desc=使用精华种子融合器可制作高级精华种子，成熟后可收获4个下级精华。
+
+key.bq.part02.task04.branch02.title=§2§l[P02-T04-B02]§r 高级离魂石
+key.bq.part02.task04.branch02.desc=将离魂石扔进高级精华溶剂中，可制作出高级离魂石。
+
+key.bq.part02.task04.branch02m.title=§2§l[P02-T04-B02-M]§r 4级怪物碎片
+key.bq.part02.task04.branch02m.desc=将小堆星尘撒在高级离魂石上可随机获取对应等级的灵魂碎片，这些灵魂碎片可用于在精华种子融合器中制作怪物种子。
+
+key.bq.part02.task04.branch02m1.title=§2§l[P02-T04-B02-M-1]§r 恶魂种子
+key.bq.part02.task04.branch02m1.desc=使用精华种子融合器可制作恶魂种子，成熟后可收获恶魂精华。
+
+key.bq.part02.task04.branch02m2.title=§2§l[P02-T04-B02-M-2]§r 末影人种子
+key.bq.part02.task04.branch02m2.desc=使用精华种子融合器可制作末影人种子，成熟后可收获末影人精华。
+
+key.bq.part02.task04.branch02m3.title=§2§l[P02-T04-B02-M-3]§r 经验种子
+key.bq.part02.task04.branch02m3.desc=使用精华种子融合器可制作经验种子，成熟后可收获经验精华。
+
+key.bq.part02.task04.branch03.title=§2§l[P02-T04-B03]§r 高级精华溶剂
+key.bq.part02.task04.branch03.desc=将活化水晶碎片和高级精华扔进水中，可制作出高级精华溶剂，精华溶剂是制作合成种子等其它材料的重要媒介。  §4注意：需要手持装有高级精华溶剂的容器以提交任务。§r  §1提示：在将来的发展阶段中你可以使用炼药锅制作精华溶剂。§r
+
+
+key.bq.part02.task05a.branch00.title=§2§l[P02-T05A-B00]§r 终极精华
+key.bq.part02.task05a.branch00.desc=终级精华可用于制作5阶种子。  §1提示：5阶种子——钻石|绿宝石|铀|铂|铱|龙|末影|脉冲合金|末影钢§r
+
+key.bq.part02.task05b.branch00.title=§2§l[P02-T05B-B00]§r 5级合成种子
+key.bq.part02.task05b.branch00.desc=将基础合成种子扔进终极精华溶剂中，可制作出5级合成种子。
+
+
+key.bq.part02.task05b.branch00s01.title=§2§l[P02-T05B-B00-S-01]§r 钻石种子
+key.bq.part02.task05b.branch00s01.desc=使用5级合成种子可随机制作出钻石种子，成熟后可收获钻石精华。
+
+key.bq.part02.task05b.branch00s02.title=§2§l[P02-T05B-B00-S-02]§r 绿宝石种子
+key.bq.part02.task05b.branch00s02.desc=使用5级合成种子可随机制作出绿宝石种子，成熟后可收获绿宝石精华。
+
+key.bq.part02.task05b.branch00s03.title=§2§l[P02-T05B-B00-S-03]§r 铀种子
+key.bq.part02.task05b.branch00s03.desc=使用5级合成种子可随机制作出铀种子，成熟后可收获铀精华。
+
+key.bq.part02.task05b.branch00s04.title=§2§l[P02-T05B-B00-S-04]§r 铂种子
+key.bq.part02.task05b.branch00s04.desc=使用5级合成种子可随机制作出铂种子，成熟后可收获铂精华。
+
+key.bq.part02.task05b.branch00s05.title=§2§l[P02-T05B-B00-S-05]§r 铱种子
+key.bq.part02.task05b.branch00s05.desc=使用5级合成种子可随机制作出铱种子，成熟后可收获铱精华。
+
+key.bq.part02.task05b.branch00s06.title=§2§l[P02-T05B-B00-S-06]§r 龙种子
+key.bq.part02.task05b.branch00s06.desc=使用5级合成种子可随机制作出龙种子，成熟后可收获龙精华。
+
+
+key.bq.part02.task05.branch01.title=§2§l[P02-T05-B01]§r 终极精华种子
+key.bq.part02.task05.branch01.desc=使用精华种子融合器可制作终极精华种子，成熟后可收获5个下级精华。
+
+key.bq.part02.task05.branch02.title=§2§l[P02-T05-B02]§r 终极离魂石
+key.bq.part02.task05.branch02.desc=将离魂石扔进终极精华溶剂中，可制作出终极离魂石。
+
+key.bq.part02.task05.branch02m.title=§2§l[P02-T05-B02-M]§r 5级怪物碎片
+key.bq.part02.task05.branch02m.desc=将小堆星尘撒在终极离魂石上可随机获取对应等级的灵魂碎片，这些灵魂碎片可用于在精华种子融合器中制作怪物种子。
+
+key.bq.part02.task05.branch02m1.title=§2§l[P02-T05-B02-M-1]§r 凋零骷髅种子
+key.bq.part02.task05.branch02m1.desc=使用精华种子融合器可制作凋零骷髅种子，成熟后可收获凋零骷髅精华。
+
+key.bq.part02.task05.branch03.title=§2§l[P02-T05-B03]§r 终极精华溶剂
+key.bq.part02.task05.branch03.desc=将活化水晶碎片和终极精华扔进水中，可制作出终极精华溶剂，精华溶剂是制作合成种子等其它材料的重要媒介。  §4注意：需要手持装有终极精华溶剂的容器以提交任务。§r  §1提示：在将来的发展阶段中你可以使用炼药锅制作精华溶剂。§r
+
+
+key.bq.part02.task06a.branch00.title=§2§l[P02-T06A-B00]§r 究极精华
+key.bq.part02.task06a.branch00.desc=究级精华可用于制作6阶种子。  §1提示：6阶种子——下界之星|龙蛋|觉醒龙§r
+
+key.bq.part02.task06b.branch00.title=§2§l[P02-T06B-B00]§r 6级合成种子
+key.bq.part02.task06b.branch00.desc=将基础合成种子扔进究极精华溶剂中，可制作出6级合成种子。
+
+key.bq.part02.task06b.branch00s01.title=§2§l[P02-T06B-B00-S-01]§r 下界之星种子
+key.bq.part02.task06b.branch00s01.desc=完成组合合成研究后可制作下界之星种子，成熟后可收获下界之星精华。
+
+key.bq.part02.task06b.branch00s02.title=§2§l[P02-T06B-B00-S-02]§r 龙蛋种子
+key.bq.part02.task06b.branch00s02.desc=完成组合合成研究后可制作龙蛋种子，成熟后可收获龙蛋精华。
+
+key.bq.part02.task06b.branch00s03.title=§2§l[P02-T06B-B00-S-03]§r 觉醒龙种子
+key.bq.part02.task06b.branch00s03.desc=完成组合合成研究后可制作觉醒龙种子，成熟后可收获觉醒龙精华。
+
+key.bq.part02.task06.branch01.title=§2§l[P02-T06-B01]§r 究极精华种子
+key.bq.part02.task06.branch01.desc=使用精华种子融合器可制作究极精华种子，成熟后可收获6个下级精华。
+
+key.bq.part02.task06.branch02.title=§2§l[P02-T06-B02]§r 究极离魂石
+key.bq.part02.task06.branch02.desc=将离魂石扔进究极精华溶剂中，可制作出究极离魂石。
+
+key.bq.part02.task06.branch02m.title=§2§l[P02-T06-B02-M]§r 6级怪物碎片
+key.bq.part02.task06.branch02m.desc=将小堆星尘撒在究极离魂石上可随机获取对应等级的碎片。
+
+key.bq.part02.task06.branch02m1.title=§2§l[P02-T06-B02-M-1]§r 下界之星碎片
+key.bq.part02.task06.branch02m1.desc= 使用下界之星碎片可在组合合成中制作下界之星。
+
+key.bq.part02.task06.branch02m2.title=§2§l[P02-T06-B02-M-2]§r 龙蛋碎片
+key.bq.part02.task06.branch02m2.desc= 使用龙蛋碎片可在组合合成中制作龙蛋。
+
+key.bq.part02.task06.branch02m3.title=§2§l[P02-T06-B02-M-3]§r 破碎龙心
+key.bq.part02.task06.branch02m3.desc= 使用破碎龙心可在组合合成中制作龙之心。
+
+key.bq.part02.task06.branch03.title=§2§l[P02-T06-B03]§r 究极精华溶剂
+key.bq.part02.task06.branch03.desc=将活化水晶碎片和究极精华扔进水中，可制作出究极精华溶剂，精华溶剂是制作合成种子等其它材料的重要媒介。  §4注意：需要手持装有究极精华溶剂的容器以提交任务。§r  §1提示：在将来的发展阶段中你可以使用炼药锅制作精华溶剂。§r
+
