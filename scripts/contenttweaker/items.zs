@@ -318,6 +318,7 @@ simpleIgniter.register();
 var debuggingStick = VanillaFactory.createItem("debugging_stick");
 debuggingStick.creativeTab = <creativeTab:isolatedplanet>;
 debuggingStick.maxStackSize = 1;
+/*
 debuggingStick.onItemUse = function(player, world, pos, hand, facing, blockHit) {
   if (!world.remote && !extrautilities2.Tweaker.XUTweaker.isPlayerFake(player)) {
     var worldtime = world.getWorldTime() % 24000;
@@ -338,10 +339,11 @@ debuggingStick.onItemUse = function(player, world, pos, hand, facing, blockHit) 
 	} else {
 	  minuteStr = "" + minute;
 	}
-	player.sendChat(hourStr + " : " + minuteStr);
+	player.sendStatusMessage(hourStr + " : " + minuteStr);
   }
   return ActionResult.pass();
 };
+*/
 debuggingStick.register();
 
 
