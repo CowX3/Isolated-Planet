@@ -9,8 +9,17 @@
 by CowX3  
 2021.07.17
 
+***
+
 [Bilibili个人中心](https://space.bilibili.com/10406554)
 
 [整合包第一弹——逃离地球计划](https://www.mcbbs.net/thread-646723-1-1.html)
 
 [整合包第二弹——三战后的世界](https://www.mcbbs.net/thread-771285-1-1.html)
+
+***
+
+![CC协议](https://licensebuttons.net/l/by-nc-nd/4.0/88x31.png)  
+Isolated Planet 由 CowX3 采用 [知识共享 署名-非商业性使用-禁止演绎 4.0 国际 许可协议](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh) 进行许可
+
+
