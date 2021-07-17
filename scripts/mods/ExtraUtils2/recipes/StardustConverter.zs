@@ -10,7 +10,7 @@ print("Initializing 'ExtraUtils2_recipes_StardustConverter.zs'...");
 var stardust_converter = extrautilities2.Tweaker.IMachineRegistry.getMachine("stardust_converter");
 
 // MACHINE CRAFTING
-recipes.addShaped(<extrautils2:machine>.withTag({Type: "crafttweaker:stardust_converter"}),
+recipes.addShaped("stardust_converter", <extrautils2:machine>.withTag({Type: "crafttweaker:stardust_converter"}),
 				[[<ore:stone>, <ore:stone>, <ore:stone>],
 				 [<minecraft:furnace>, <ore:gearStone>, <minecraft:furnace>],
 				 [<contenttweaker:stardust>, <ore:logWood>, <contenttweaker:stardust>]]);
@@ -27,7 +27,7 @@ stardust_converter.addRecipe(
   12000, 20*30
 );
 
-// Sky Stone 
+// Sky Stone
 stardust_converter.addRecipe(
   {
     "SD_input": <contenttweaker:stardust>,
@@ -87,7 +87,7 @@ stardust_converter.addRecipe(
   3000, 20*15
 );
 
-// Sapling 
+// Sapling
 var logWoods = [
   <minecraft:log>,
   <minecraft:log:1>,
@@ -139,7 +139,7 @@ for i in 0 to 6 {
 	    "item_input": leaves[i]*16
     },
     {
-      "item_output": <thermalexpansion:florb>.withTag({Fluid: "water"})*8
+      "item_output": <thermalexpansion:florb>.withTag({Fluid: "water"})*4
     },
     3000, 20*15
   );

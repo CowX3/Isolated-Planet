@@ -60,10 +60,10 @@ XML editor will display that as tooltips when editing this file.
       <item name="enderio:item_material:6" show="true" /><!-- itemGliderWing -->
       <item name="enderio:item_material:7" show="true" /><!-- itemGliderWings -->
       <item name="enderio:item_material:8" show="true" /><!-- itemNutritiousStick -->
-      <item name="enderio:item_material:12" show="true" /><!-- gearEnergized -->
-      <item name="enderio:item_material:13" show="true" /><!-- gearVibrant -->
+      <item name="enderio:item_material:12" show="false" /><!-- gearEnergized -->
+      <item name="enderio:item_material:13" show="false" /><!-- gearVibrant -->
       <item name="enderio:item_material:71" show="true" /><!-- itemInfinityRod -->
-      <item name="enderio:item_material:73" show="true" /><!-- gearDark -->
+      <item name="enderio:item_material:73" show="false" /><!-- gearDark -->
 
       <item name="enderio:block_dark_steel_anvil:*" show="true" />
       <item name="enderio:block_dark_steel_ladder:0" show="true" />

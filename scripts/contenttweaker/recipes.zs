@@ -22,9 +22,9 @@ mods.inworldcrafting.FireCrafting.addRecipe(<contenttweaker:block_crushed_charco
 
 
 // Snad
-scripts.globals.replaceShapeless(<snad:snad>,
+scripts.globals.replaceShapeless("stardust_snad", <snad:snad>,
   [<contenttweaker:small_stardust>, <minecraft:sand>, <minecraft:sand>]);
-scripts.globals.replaceShapeless(<snad:snad:1>,
+scripts.globals.replaceShapeless("stardust_redsnad", <snad:snad:1>,
   [<contenttweaker:small_stardust>, <minecraft:sand:1>, <minecraft:sand:1>]);
 
 
@@ -52,21 +52,21 @@ for i, soulstone in soulstones {
 
 
 // SimpleIgniter
-recipes.addShapeless(<contenttweaker:simple_igniter>,
+recipes.addShapeless("simple_igniter", <contenttweaker:simple_igniter>,
 					[<ore:plankWood>, <minecraft:stick>, <minecraft:stick>]);
 
 
 // Broken Dragon Heart
-recipes.addShaped(<contenttweaker:broken_dragon_heart>,
+recipes.addShaped("broken_dragon_heart", <contenttweaker:broken_dragon_heart>,
 				[[null, <mysticalagradditions:awakened_draconium_essence>, null],
 				 [<mysticalagradditions:awakened_draconium_essence>, null, <mysticalagradditions:awakened_draconium_essence>],
 				 [null, <mysticalagradditions:awakened_draconium_essence>, null]]);
 
 
 // Stardust
-recipes.addShapeless(<contenttweaker:small_stardust>*4,
+recipes.addShapeless("small_stardust", <contenttweaker:small_stardust>*4,
 					[<contenttweaker:stardust>]);
-recipes.addShapeless(<contenttweaker:stardust>,
+recipes.addShapeless("stardust", <contenttweaker:stardust>,
 					[<contenttweaker:small_stardust>, <contenttweaker:small_stardust>, <contenttweaker:small_stardust>, <contenttweaker:small_stardust>]);
 
 
@@ -171,7 +171,7 @@ var dust = [
   <contenttweaker:material_part:96>
 ] as IItemStack[];
 for i, oreEssence in oreEssences {
-  recipes.addShaped(clump[i]*4,
+  recipes.addShaped("essence_clump" ~ i, clump[i]*4,
 					[[oreEssence, oreEssence, oreEssence],
 					 [oreEssence, null, oreEssence],
 					 [oreEssence, oreEssence, oreEssence]]);
@@ -362,9 +362,9 @@ recipes.removeShapeless(<immersiveengineering:metal:35>, [<immersiveengineering:
 recipes.removeShapeless(<immersiveengineering:metal:38>, [<thermalfoundation:material:160>, <immersiveengineering:tool>]);
 recipes.removeShapeless(<immersiveengineering:metal:36>, [<thermalfoundation:material:164>, <immersiveengineering:tool>]);
 recipes.removeShapeless(<immersiveengineering:metal:37>, [<thermalfoundation:material:161>, <immersiveengineering:tool>]);
-for hammer in hammers {
-  for i, plate in plates {
-    recipes.addShaped(plate, [[hammer.anyDamage().transformDamage(1)], [ingots[i]], [ingots[i]]]);
+for i, hammer in hammers {
+  for j, plate in plates {
+    recipes.addShaped("hammer" ~ i ~ "_plate" ~ j, plate, [[hammer.anyDamage().transformDamage(1)], [ingots[j]], [ingots[j]]]);
   }
 }
 for i in 20 to 37 {
@@ -454,27 +454,27 @@ var sticks = [
   <contenttweaker:material_part:129>,
   <contenttweaker:material_part:134>
 ] as IItemStack[];
-for hammer in hammers {
-  for i, gear in gears {
-    recipes.remove(sticks[i]);
+for i, hammer in hammers {
+  for j, gear in gears {
+    recipes.remove(sticks[j]);
     recipes.remove(gear);
-    mods.immersiveengineering.MetalPress.removeRecipe(sticks[i]);
+    mods.immersiveengineering.MetalPress.removeRecipe(sticks[j]);
     mods.immersiveengineering.MetalPress.removeRecipe(gear);
-    recipes.addShaped(sticks[i]*2,
-      [[hammer.anyDamage().transformDamage(1), ingots[i]],
-       [ingots[i], null]]);
-    mods.immersiveengineering.MetalPress.addRecipe(sticks[i]*2, ingots[i], <immersiveengineering:mold:2>, 2400);
-    recipes.addShaped(gear,
-      [[sticks[i], sticks[i], sticks[i]],
-       [sticks[i], hammer.anyDamage().transformDamage(1), sticks[i]],
-       [sticks[i], sticks[i], sticks[i]]]);
-    mods.immersiveengineering.MetalPress.addRecipe(gear, ingots[i]*4, <immersiveengineering:mold:1>, 3000);
+    recipes.addShaped("hammer" ~ i ~ "_stick" ~ j, sticks[j]*2,
+      [[hammer.anyDamage().transformDamage(1), ingots[j]],
+       [ingots[j], null]]);
+    mods.immersiveengineering.MetalPress.addRecipe(sticks[j]*2, ingots[j], <immersiveengineering:mold:2>, 2400);
+    recipes.addShaped("hammer" ~ i ~ "_gear" ~ j, gear,
+      [[sticks[j], sticks[j], sticks[j]],
+       [sticks[j], hammer.anyDamage().transformDamage(1), sticks[j]],
+       [sticks[j], sticks[j], sticks[j]]]);
+    mods.immersiveengineering.MetalPress.addRecipe(gear, ingots[j]*4, <immersiveengineering:mold:1>, 3000);
   }
 }
 
 
 // Star Slate
-recipes.addShaped(<contenttweaker:star_slate>,
+recipes.addShaped("star_slate", <contenttweaker:star_slate>,
 				[[<ore:stoneGranite>, <ore:stoneDiorite>, <ore:stoneAndesite>],
 				 [<ore:netherrack>, <contenttweaker:stardust>, <ore:endstone>],
 				 [<ore:stoneMarble>, <ore:stoneLimestone>, <ore:stoneBasalt>]]);

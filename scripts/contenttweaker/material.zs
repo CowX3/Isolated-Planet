@@ -9,7 +9,14 @@ import mods.contenttweaker.Material;
 import mods.contenttweaker.MaterialPartData;
 import mods.contenttweaker.MaterialSystem;
 
+import mods.contenttweaker.Part;
+import mods.contenttweaker.PartBuilder;
+
 print("Initializing 'contenttweaker_materials.zs'...");
+
+// Parts
+static builder as PartBuilder = mods.contenttweaker.MaterialSystem.getPartBuilder();
+static wire as Part = builder.setName("wire").setPartType(MaterialSystem.getPartType("item")).setOreDictName("wire").build();
 
 // Material List
 static MaterialList as Material[string] = {
@@ -61,7 +68,7 @@ static MaterialList as Material[string] = {
   "Kyronite": MaterialSystem.getMaterialBuilder().setName("Kyronite").setColor(Color.fromHex("A82395")).build(),
   "Pladium": MaterialSystem.getMaterialBuilder().setName("Pladium").setColor(Color.fromHex("254B9C")).build(),
   "Ionite": MaterialSystem.getMaterialBuilder().setName("Ionite").setColor(Color.fromHex("6BB2D2")).build(),
-  "Aethium": MaterialSystem.getMaterialBuilder().setName("Aethium").setColor(Color.fromHex("5C5C5C")).build(),
+  "Aethium": MaterialSystem.getMaterialBuilder().setName("Aethium").setColor(Color.fromHex("292929")).build(),
   "Lonsdaleite": MaterialSystem.getMaterialBuilder().setName("Lonsdaleite").setColor(Color.fromHex("626262")).build()
 };
 
@@ -71,7 +78,7 @@ MaterialList.Gold.registerParts(["clump"] as string[]);
 MaterialList.Aluminum.registerParts(["clump"] as string[]);
 MaterialList.Copper.registerParts(["clump"] as string[]);
 MaterialList.Tin.registerParts(["clump"] as string[]);
-MaterialList.Silver.registerParts(["clump"] as string[]);
+MaterialList.Silver.registerParts(["clump", "wire"] as string[]);
 MaterialList.Lead.registerParts(["clump"] as string[]);
 MaterialList.Nickel.registerParts(["clump"] as string[]);
 MaterialList.Uranium.registerParts(["clump"] as string[]);
@@ -81,7 +88,7 @@ MaterialList.Iridium.registerParts(["clump"] as string[]);
 MaterialList.Bronze.registerParts(["clump", "dense_plate", "rod"] as string[]);
 MaterialList.Steel.registerParts(["clump", "dense_plate", "rod"] as string[]);
 MaterialList.Constantan.registerParts(["clump", "dense_plate", "rod"] as string[]);
-MaterialList.Electrum.registerParts(["clump", "dense_plate", "rod"] as string[]);
+MaterialList.Electrum.registerParts(["clump", "dense_plate", "rod", "wire"] as string[]);
 MaterialList.Invar.registerParts(["clump", "dense_plate", "rod"] as string[]);
 MaterialList.Mithril.registerParts(["clump", "dense_plate", "rod"] as string[]);
 MaterialList.Signalum.registerParts(["clump", "dense_plate", "rod"] as string[]);
@@ -102,11 +109,11 @@ MaterialList.Soularium.registerParts(["clump", "dust", "plate", "dense_plate", "
 MaterialList.Endsteel.registerParts(["clump", "dust", "plate", "dense_plate", "rod", "gear"] as string[]);
 
 MaterialList.Crudesteel.registerParts(["dust", "plate", "dense_plate", "rod", "gear"] as string[]);
-MaterialList.Crystallinealloy.registerParts(["dust", "plate", "dense_plate", "rod", "gear"] as string[]);
-MaterialList.Melodicalloy.registerParts(["dust", "plate", "dense_plate", "rod", "gear"] as string[]);
-MaterialList.Stellaralloy.registerParts(["dust", "plate", "dense_plate", "rod", "gear"] as string[]);
-MaterialList.Crystallinepinkslime.registerParts(["dust", "plate", "dense_plate", "rod", "gear"] as string[]);
-MaterialList.Energeticsilver.registerParts(["dust", "plate", "dense_plate", "rod", "gear"] as string[]);
+MaterialList.Crystallinealloy.registerParts(["dust", "plate", "dense_plate", "rod", "gear", "wire"] as string[]);
+MaterialList.Melodicalloy.registerParts(["dust", "plate", "dense_plate", "rod", "gear", "wire"] as string[]);
+MaterialList.Stellaralloy.registerParts(["dust", "plate", "dense_plate", "rod", "gear", "wire"] as string[]);
+MaterialList.Crystallinepinkslime.registerParts(["dust", "plate", "dense_plate", "rod", "gear", "wire"] as string[]);
+MaterialList.Energeticsilver.registerParts(["dust", "plate", "dense_plate", "rod", "gear", "wire"] as string[]);
 MaterialList.Vividalloy.registerParts(["dust", "plate", "dense_plate", "rod", "gear"] as string[]);
 
 MaterialList.Litherite.registerParts(["dust", "plate", "dense_plate"] as string[]);

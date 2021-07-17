@@ -100,7 +100,7 @@ var oreItemPieces = [
   <appliedenergistics2:material:7>
 ] as IItemStack[];
 for i, oreItemEssence in oreItemEssences {
-  recipes.addShaped(oreItemPieces[i]*8,
+  recipes.addShaped("ore_item" ~ i, oreItemPieces[i]*8,
 					[[oreItemEssence, oreItemEssence, oreItemEssence],
 					 [oreItemEssence, null, oreItemEssence],
 					 [oreItemEssence, oreItemEssence, oreItemEssence]]);
@@ -124,8 +124,8 @@ var blockEssences = [
   <mysticalagradditions:storage>
 ] as IItemStack[];
 for i, essence in essences {
-  scripts.globals.replaceShapeless(essence*9, [blockEssences[i]]);
-  scripts.globals.replaceShaped(blockEssences[i],
+  scripts.globals.replaceShapeless("block_essence" ~ i, essence*9, [blockEssences[i]]);
+  scripts.globals.replaceShaped("essense_block" ~ i, blockEssences[i],
 								[[essence,essence,essence],
 								 [essence,essence,essence],
 								 [essence,essence,essence]]);
@@ -216,8 +216,8 @@ var basicSeedsTier5 = [
   <mysticalagriculture:iridium_seeds>,
   <mysticalagriculture:draconium_seeds>
 ] as IItemStack[];
-function randomSeeds(input as IItemStack, seedList as IItemStack[], lore as string[]){
-  recipes.addShapeless(input.withLore(lore),
+function randomSeeds(id as string, input as IItemStack, seedList as IItemStack[], lore as string[]){
+  recipes.addShapeless("random_seeds" ~ id, input.withLore(lore),
   [<contenttweaker:star_slate>.reuse(), input],
   function(out, ins, cInfo) {
     var randnum = cInfo.player.world.random;
@@ -225,9 +225,9 @@ function randomSeeds(input as IItemStack, seedList as IItemStack[], lore as stri
     return seedList[index];
   } as IRecipeFunction, null);
 }
-randomSeeds(<mysticalagriculture:crafting:18>, basicSeedsTier2, ["§a此配方可随机获得任意二级矿石种子"]);
-randomSeeds(<mysticalagriculture:crafting:19>, basicSeedsTier3, ["§6此配方可随机获得任意三级矿石种子"]);
-randomSeeds(<mysticalagriculture:crafting:20>, basicSeedsTier4, ["§b此配方可随机获得任意四级矿石种子"]);
-randomSeeds(<mysticalagriculture:crafting:21>, basicSeedsTier5, ["§c此配方可随机获得任意五级矿石种子"]);
+randomSeeds("2", <mysticalagriculture:crafting:18>, basicSeedsTier2, ["§a此配方可随机获得以下二级矿石种子", "§a煤|染料|硅|硫磺|铝|铜|赛特斯"]);
+randomSeeds("3", <mysticalagriculture:crafting:19>, basicSeedsTier3, ["§6此配方可随机获得以下三级矿石种子", "§6铁|下界石英|荧石|红石|硝石|锡|银|铅"]);
+randomSeeds("4", <mysticalagriculture:crafting:20>, basicSeedsTier4, ["§b此配方可随机获得以下四级矿石种子", "§b金|青金石|镍"]);
+randomSeeds("5", <mysticalagriculture:crafting:21>, basicSeedsTier5, ["§c此配方可随机获得以下五级矿石种子", "§c钻石|绿宝石|铀|铂|铱|龙"]);
 
 print("Initialized 'MysticalAgriculture.zs'.");

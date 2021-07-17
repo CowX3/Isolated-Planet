@@ -19,8 +19,7 @@ var stoneList = [
   <minecraft:stone:5>,
   <chisel:marble2:7>,
   <chisel:limestone2:7>,
-  <chisel:basalt2:7>,
-  <minecraft:stone>
+  <chisel:basalt2:7>
 ] as IItemStack[];
 var logList = [
   <minecraft:log>,
@@ -28,12 +27,11 @@ var logList = [
   <minecraft:log:2>,
   <minecraft:log:3>,
   <minecraft:log2>,
-  <minecraft:log2:1>,
-  <minecraft:log>
+  <minecraft:log2:1>
 ] as IItemStack[];
 
 // Stone Transform
-for i in 0 to 7 {
+for i in 0 to 6 {
   star_fusion.addRecipe(
     {
       "fluid_input": <liquid:bluestar_solution>*125,
@@ -47,7 +45,7 @@ for i in 0 to 7 {
 }
 
 // Log Transform
-for i in 0 to 6 {
+for i in 0 to 5 {
   star_fusion.addRecipe(
     {
       "fluid_input": <liquid:bluestar_solution>*125,
@@ -60,7 +58,17 @@ for i in 0 to 6 {
   );
 }
 
-// 
+// Sand Transform
+star_fusion.addRecipe(
+  {
+    "fluid_input": <liquid:bluestar_solution>*125,
+    "item_input1": <minecraft:sand>*8
+  },
+  {
+    "item_output": <minecraft:sand:1>*8
+  },
+  4000, 20*5
+);
 
 
 

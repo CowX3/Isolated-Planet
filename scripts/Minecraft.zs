@@ -7,27 +7,27 @@ import crafttweaker.item.IItemStack;
 print("Initializing 'minecraft.zs'...");
 
 // Basic Materials
-recipes.addShaped(<minecraft:stone>*32,
+recipes.addShaped("stardust_stone", <minecraft:stone>*32,
 				[[<contenttweaker:stardust>, <contenttweaker:stardust>, <contenttweaker:stardust>],
 				 [<contenttweaker:stardust>, null, <contenttweaker:stardust>],
 				 [<contenttweaker:stardust>, <contenttweaker:stardust>, <contenttweaker:stardust>]]);
-recipes.addShaped(<minecraft:cobblestone>*8,
+recipes.addShaped("stardust_cobblestone", <minecraft:cobblestone>*8,
 				[[<ore:stone>, <ore:stone>, <ore:stone>],
 				 [<ore:stone>, <contenttweaker:stardust>, <ore:stone>],
 				 [<ore:stone>, <ore:stone>, <ore:stone>]]);
-recipes.addShaped(<minecraft:gravel>*8,
+recipes.addShaped("stardust_gravel", <minecraft:gravel>*8,
 				[[<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>],
 				 [<ore:cobblestone>, <contenttweaker:stardust>, <ore:cobblestone>],
 				 [<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]]);
-recipes.addShaped(<minecraft:sand>*8,
+recipes.addShaped("stardust_sand", <minecraft:sand>*8,
 				[[<ore:gravel>, <ore:gravel>, <ore:gravel>],
 				 [<ore:gravel>, <contenttweaker:stardust>, <ore:gravel>],
 				 [<ore:gravel>, <ore:gravel>, <ore:gravel>]]);
-recipes.addShaped(<minecraft:dirt>*8,
+recipes.addShaped("stardust_dirt", <minecraft:dirt>*8,
 				[[<ore:sand>, <ore:gravel>, <ore:sand>],
 				 [<ore:gravel>, <contenttweaker:stardust>, <ore:gravel>],
 				 [<ore:sand>, <ore:gravel>, <ore:sand>]]);
-recipes.addShaped(<minecraft:log>*16,
+recipes.addShaped("stardust_log", <minecraft:log>*16,
 				[[<contenttweaker:stardust>, <contenttweaker:stardust>],
 				 [<contenttweaker:stardust>, <contenttweaker:stardust>]]);
 
@@ -56,7 +56,7 @@ mods.inworldcrafting.FluidToItem.transform(<minecraft:clay>*4, <liquid:water>, [
 mods.inspirations.Cauldron.addFluidRecipe(<minecraft:clay>*2, <minecraft:sand>*2, <liquid:water>, 1, true);
 
 // Flint
-recipes.addShapeless(<minecraft:flint>,
+recipes.addShapeless("gravel_flint", <minecraft:flint>,
 				 [<ore:gravel>, <ore:gravel>, <ore:gravel>]);
 
 // Obsidian
@@ -64,7 +64,7 @@ mods.inspirations.Cauldron.addFluidRecipe(<minecraft:obsidian>, <thermalexpansio
 mods.inspirations.Cauldron.addFluidRecipe(<minecraft:obsidian>, <thermalexpansion:florb:1>.withTag({Fluid: "lava"}), <liquid:water>, 4);
 
 // Paper
-recipes.addShaped(<minecraft:paper>,
+recipes.addShaped("stardust_paper", <minecraft:paper>,
 				[[<contenttweaker:small_stardust>, <contenttweaker:small_stardust>, <contenttweaker:small_stardust>]]);
 
 

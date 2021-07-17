@@ -74,7 +74,7 @@ base.material.energeticalloy=充能合金
 base.material.vibrantalloy=脉冲合金
 base.material.redstonealloy=红石合金
 base.material.conductiveiron=导电铁
-base.material.pulsatingiron=脉冲铁
+base.material.pulsatingiron=充能铁
 base.material.darksteel=玄钢
 base.material.soularium=魂金
 base.material.endsteel=末影钢
@@ -93,12 +93,17 @@ base.material.ionite=艾恩尼水晶
 base.material.aethium=以太水晶
 base.material.lonsdaleite=蓝丝黛尔水晶
 
+#part
+contenttweaker.part.wire=%s线
+
 
 #machines
 machine.crafttweaker:stardust_converter=星尘转化器
 machine.crafttweaker:starlight_condenser=星光凝聚器
 machine.crafttweaker:star_fusion=繁星融合器
 machine.crafttweaker:essence_seed_fusion=精华种子融合器
+machine.crafttweaker:pro_dip_washing_machine=活化浸洗机
+machine.crafttweaker:bluestar_crystallizer=蓝星结晶厂
 
 #jei
 key.debugging_stick.jei=§8§o它可以帮你做任何事情（意味深）
@@ -139,8 +144,8 @@ key.bq.part01.task05.branch00.desc=当你将小堆星尘撒在石头上时，石
 key.bq.part01.task05.branch01.title=§2§l[P01-T05-B01]§r 原木转化
 key.bq.part01.task05.branch01.desc=小堆星尘可直接用于在所有种类的原木之间互相转化。  §4注意：每次操作都会消耗1个小堆星尘。§r
 
-key.bq.part01.task05.branch02.title=§2§l[P01-T05-B02]§r 变质岩转化
-key.bq.part01.task05.branch02.desc=小堆星尘可以直接将石头转化为各种变质岩。  §4注意：每次操作都会消耗1个小堆星尘。§r
+key.bq.part01.task05.branch02.title=§2§l[P01-T05-B02]§r 岩石转化
+key.bq.part01.task05.branch02.desc=小堆星尘可以直接将石头转化为其他种类的岩石。  §4注意：每次操作都会消耗1个小堆星尘。§r
 
 key.bq.part01.task06.branch00.title=§2§l[P01-T06-B00]§r 文明火种
 key.bq.part01.task06.branch00.desc=火的发现和利用，标志着人类的进步，对于人类和社会的发展具有重大的意义。你需要找回原始人生火的方式——钻木取火，来获得你在这个星球上的第一个希望之光。  §4注意：简易点火器点火成功的概率为0.2。§r
@@ -182,7 +187,7 @@ key.bq.part01.task12.branch00.title=§2§l[P01-T12-B00]§r "水晶之种"
 key.bq.part01.task12.branch00.desc=通过种子与活化水晶的互相结合，你制作出了一种特殊的种子，它不能直接种植在耕地上，需要经过特殊的处理方式才能够正常种植。
 
 key.bq.part01.task13.branch00.title=§2§l[P01-T13-B00]§r 古老的矿物种植技术
-key.bq.part01.task13.branch00.desc=在2516年的第三次世界大战结束后，曾有人在地球上通过杂交的方式种植出了第一株矿石作物，之后他在无数次枯燥的杂交过程中也发现了十几种常见金属和非金属的矿石作物，最后他在离开地球前把这些矿石作物带上了火星。经过了700多年的改良和大范围推广，矿石作物的制作配方也是人尽皆知。  你为了获取最基础的矿石作物而制作出了一台机器，相信在这台机器和星辰石板的作用下，这些矿石种子能够重新焕发生机。  §4注意：在使用精华种子融合器制作矿石种子时，对于需要使用星辰石板的配方，请一定要注意星辰石板是否已调整为所需要的模式。§r
+key.bq.part01.task13.branch00.desc=在2516年的第三次世界大战结束后，曾有人在地球上通过杂交的方式种植出了第一株矿石作物，之后他在无数次枯燥的杂交过程中也发现了十几种常见金属和非金属的矿石作物，最后他在离开地球前把这些矿石作物带上了火星。经过了700多年的改良和大范围推广，矿石作物的制作配方也是人尽皆知。  你为了获取最基础的矿石作物而制作出了一台机器，相信在这台机器和星辰石板的作用下，这些矿石种子能够重新焕发生机。
 
 key.bq.part01.task14.branch00.title=§2§l[P01-T14-B00]§r 魂石
 key.bq.part01.task14.branch00.desc=将沙子与灵魂沙扔进水中，你得到了一些碎离魂石，当然，碎离魂石需要经过熔炼才能让它具备吸收各种精华的能力。

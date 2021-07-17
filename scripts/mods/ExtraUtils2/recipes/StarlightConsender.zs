@@ -29,6 +29,17 @@ starlight_condenser.addRecipe(
   },
   1500, 20*5
 );
+starlight_condenser.addRecipe(
+  {
+    "fluid_input": <liquid:prosperity_solvent>*500,
+    "item_input": <mysticalagriculture:crafting:5>
+  },
+  {
+    "fluid_output": <liquid:prosperity_solvent>*500
+  },
+  3000, 20*10
+);
+
 
 
 print("Initialized 'ExtraUtils2_recipes_StarlightConsender.zs'.");

@@ -1,0 +1,37 @@
+{
+    "name": "基础星尘工艺",
+    "icon": "contenttweaker:research_stardust1",
+    "category": "02_StardustProcess",
+    "sortnum" : 1,
+    "pages": [
+        {
+            "type": "text",
+            "text": "    相信你已经对$(l:01_03_AboutStardustCraft)星尘的两种主要特性$()有所了解，只要方法正确，就可以将星尘转化为各种各样具有实用价值的材料，但你仍然需要从制作基础材料的方法开始学习。$(br)    以下会列出基础星尘工艺所涉及到的合成配方。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "small_stardust",
+            "recipe2": "stardust"
+        },
+        {
+            "type": "crafting",
+            "recipe": "stardust_stone",
+            "text": "    可以使用$(#11CFFF)小堆星尘$()右键石头，在以下列表中循环转化各种岩石。$(li)花岗岩$(li)闪长岩$(li)安山岩$(li)大理石$(li)石灰岩$(li)玄武岩"
+        },
+        {
+            "type": "crafting",
+            "recipe": "stardust_log",
+            "text": "    可以使用$(#11CFFF)小堆星尘$()右键橡木，在以下列表中循环转化各种原木。$(li)云杉木$(li)白桦木$(li)丛林木$(li)金合欢木$(li)深色橡木"
+        },
+        {
+            "type": "crafting",
+            "recipe": "stardust_cobblestone",
+            "recipe2": "stardust_gravel"
+        },
+        {
+            "type": "crafting",
+            "recipe": "stardust_sand",
+            "recipe2": "stardust_dirt"
+        }
+    ]
+}

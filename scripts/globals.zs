@@ -9,14 +9,14 @@ import crafttweaker.world.IWorld;
 
 print("Initializing 'globals.zs'...");
 
-function replaceShaped(output as IItemStack, input as IIngredient[][]) {
+function replaceShaped(id as string, output as IItemStack, input as IIngredient[][]) {
   recipes.remove(output);
-  recipes.addShaped(output, input);
+  recipes.addShaped(id, output, input);
 }
 
-function replaceShapeless(output as IItemStack, input as IIngredient[]) {
+function replaceShapeless(id as string, output as IItemStack, input as IIngredient[]) {
   recipes.remove(output);
-  recipes.addShapeless(output, input);
+  recipes.addShapeless(id, output, input);
 }
 
 function addCrusher(output as IItemStack, input as IItemStack) {
@@ -33,10 +33,9 @@ function addCrusherProb(output1 as IItemStack, input as IItemStack, output2 as I
   mods.thermalexpansion.Pulverizer.addRecipe(output1, input, 4000, output2, prob*100);
 }
 
-function addAlloySmelt(output as IItemStack, input1 as IItemStack, input2 as IItemStack) {
+function addAlloySmelt(output as IItemStack, input1 as IIngredient, input2 as IIngredient) {
   mods.immersiveengineering.AlloySmelter.addRecipe(output, input1, input2, 2000);
   mods.immersiveengineering.ArcFurnace.addRecipe(output, input1, null, 100, 512, [input2], "Alloying");
-  mods.thermalexpansion.InductionSmelter.addRecipe(output, input1, input2, 1600);
 }
 
 print("Initialized 'globals.zs'.");

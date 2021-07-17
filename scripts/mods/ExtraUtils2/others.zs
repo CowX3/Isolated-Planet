@@ -4,7 +4,7 @@
 
 print("Initializing 'ExtraUtils2_others.zs'...");
 
-scripts.globals.replaceShaped(<extrautils2:machine>.withTag({Type: "extrautils2:generator_survival"}),
+scripts.globals.replaceShaped("exu2_generator_survival", <extrautils2:machine>.withTag({Type: "extrautils2:generator_survival"}),
   [[<ore:stone>, <ore:stone>, <ore:stone>],
    [<ore:stone>, <ore:blockCharcoal>, <ore:stone>],
    [<ore:gearStone>, <minecraft:furnace>, <ore:gearStone>]]);

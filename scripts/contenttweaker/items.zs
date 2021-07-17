@@ -39,7 +39,7 @@ smallStardust.onItemUse = function(player, world, pos, hand, facing, blockHit) {
   var blockID = blockInfo.definition.id;
   var blockMeta = blockInfo.meta;
   var finishRecipe = false;
-  // 石头 → 变质岩
+  // 石头 -> 其他岩石
   if (!world.remote && !extrautilities2.Tweaker.XUTweaker.isPlayerFake(player)){
     if (blockID == "minecraft:stone") {
       if (blockMeta == 0) {			// 花岗岩
@@ -122,7 +122,17 @@ smallStardust.onItemUse = function(player, world, pos, hand, facing, blockHit) {
 	  player.getHeldItem(hand).shrink(1);
 	  finishRecipe = true;
     }
-    // 玻璃 → 1~4 活化水晶碎片
+	// 沙子红沙转换
+	if (blockID == "minecraft:sand") {
+	  if (blockMeta == 0) {			// 红沙
+        world.setBlockState(<block:minecraft:sand:1>, blockPos);
+	  } else if (blockMeta == 1) {	// 沙子
+	    world.setBlockState(<block:minecraft:sand>, blockPos);
+	  }
+	  player.getHeldItem(hand).shrink(1);
+	  finishRecipe = true;
+	}
+    // 玻璃 -> 1~4 活化水晶碎片
     if (blockID == "minecraft:glass") {
       if (player.hasGameStage("stardust_2")) {
         var count = world.getRandom().nextInt(4)+1;
@@ -134,7 +144,7 @@ smallStardust.onItemUse = function(player, world, pos, hand, facing, blockHit) {
 	    player.sendStatusMessage("需要进入'星尘时代 阶段2'");
 	  }
     }
-    // 泥土 → 1~3 种子
+    // 泥土 -> 1~3 种子
     if (blockID == "minecraft:dirt") {
 	  if (player.hasGameStage("stardust_2")) {
         var count = world.getRandom().nextInt(3)+1;
@@ -148,7 +158,7 @@ smallStardust.onItemUse = function(player, world, pos, hand, facing, blockHit) {
 	    player.sendStatusMessage("需要进入'星尘时代 阶段2'");
 	  }
     }
-    // 离魂石 → 灵魂碎片
+    // 离魂石 -> 灵魂碎片
     // LV.1
     if (blockID == "contenttweaker:soulstone_inferium") {
       var prob = world.getRandom().nextInt(100);

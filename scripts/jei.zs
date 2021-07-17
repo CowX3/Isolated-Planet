@@ -42,6 +42,9 @@ var rhItemList = [
   <enderio:item_endergy_conduit:3>,
   <enderio:item_material:9>,
   <enderio:item_material:10>,
+  <enderio:item_material:12>,
+  <enderio:item_material:13>,
+  <enderio:item_material:73>,
 
   // ExtraUtils2
   <extrautils2:teleporter:*>,
@@ -180,11 +183,12 @@ var addItemList = [
   <enderio:item_alloy_ingot:5>,
   <enderio:item_alloy_ingot:6>,
   <enderio:item_alloy_ingot:7>,
-  <enderio:item_alloy_ingot:8>
+  <enderio:item_alloy_ingot:8>,
+  <enderio:item_material:72>
 ] as IItemStack[];
 
 for addItem in addItemList {
-  mods.jei.JEI.addItem(addItem.withEmptyTag());
+  mods.jei.JEI.addItem(addItem);
 }
 
 print("Initialized 'jei.zs'.");

@@ -9,7 +9,7 @@ import crafttweaker.recipes.IRecipeFunction;
 print("Initializing 'contenttweaker_researchaction.zs'...");
 
 // Stardust Age 1 Research
-recipes.addShapeless(<contenttweaker:research_stardust1>.withLore(["§bRight click!"]),
+recipes.addShapeless("research_stardust1", <contenttweaker:research_stardust1>.withLore(["§bRight click!"]),
 					[<patchouli:guide_book>.withTag({"patchouli:book": "patchouli:stardust"}).reuse()],
 					function(out, ins, cInfo) {
 					  if (cInfo.player.hasAnyGameStages(STAGE.stardust1, STAGE.C_stardust1)) {

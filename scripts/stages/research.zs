@@ -4,11 +4,11 @@
 
 print("Initializing 'stages_research.zs'...");
 
-recipes.addShaped(<researchtable:table>,
+recipes.addShaped("research_table", <researchtable:table>,
 				[[<ore:stone>, <contenttweaker:stardust>, <ore:stone>],
 				 [null, <ore:stone>, null],
 				 [<ore:slabStone>, <ore:slabStone>, <ore:slabStone>]]);
-recipes.addShapeless(<patchouli:guide_book>.withTag({"patchouli:book": "patchouli:stardust"}),
+recipes.addShapeless("guide_book", <patchouli:guide_book>.withTag({"patchouli:book": "patchouli:stardust"}),
 				[<minecraft:book>, <contenttweaker:stardust>]);
 
 var researchType = mods.ResearchTable.addCategory(<contenttweaker:stardust>);
