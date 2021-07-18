@@ -128,30 +128,6 @@
       }
     },
 
-	  "changelog": {
-	    "text":"§c§l更新公告",
-      "posX" : -36,
-      "posY" : 5,
-	    "fontSize" : 2,
-      "alignment" : "top_center"
-	  },
-	  "changetip": {
-	    "text":"§c[需要联网查看]",
-      "posX" : -28,
-      "posY" : 25,
-      "alignment" : "top_center"
-	  },
-	  "changeweb": {
-	    "text":"web:https://raw.githubusercontent.com/CowX3/Isolated-Planet/main/modpackUpdate.txt",
-      "posX" : -59,
-      "posY" : 35,
-      "alignment" : "top_center",
-	    "action" : {
-        "type" : "openLink",
-        "link" : "about:blank"
-      }
-	  },
-
 	  "title": {
 	    "text": "§3Isolated Planet  孤星",
 	    "posX" : -88,
